@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-responsive</title>
+</head>
+<body>
+    <div class="signup-form">
+        <h2>Sign Up</h2>
+        <h3>1. 	Your Basic Info<h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+    
+            <label for="age">Age:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="age" value="under13"> Under 13</label>
+                <label><input type="radio" name="age" value="over13"> Over 13</label>
+            </div>
+    
+            <label for="job">Job Role:</label>
+            <input type="text" id="job" name="job" value="Front-End Developer">
+    
+            <label>Interests:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="interests" value="development"> Development</label>
+                <label><input type="checkbox" name="interests" value="design"> Design</label>
+                <label><input type="checkbox" name="interests" value="business"> Business</label>
+            </div>
+    
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    
+</body>
+</html>
